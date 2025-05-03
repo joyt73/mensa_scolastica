@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "281377011187",
+    "project_id": "mensa-scolastica",
+    "storage_bucket": "mensa-scolastica.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281377011187:android:54565425261c8a72154e86",
+        "android_client_info": {
+          "package_name": "com.example.mensa_scolastica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB11s9gRJzsDv_WB0kgNoztf_lBZwts9FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

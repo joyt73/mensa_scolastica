@@ -1,0 +1,69 @@
+name: mensa_scolastica
+description: App per la gestione dei buoni pasto scolastici
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.25.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+  firebase_storage: ^11.6.0
+  firebase_messaging: ^14.7.10
+  firebase_crashlytics: ^3.4.9
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+  # UI & User Experience
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.1
+  mobile_scanner: ^3.5.5
+  qr_flutter: ^4.1.0
+
+  # Routing
+  go_router: ^13.0.1
+
+  # Servizi
+  http: ^1.2.0
+  flutter_stripe: ^10.1.1
+  flutter_local_notifications: ^19.1.0
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  connectivity_plus: ^5.0.1
+  workmanager: ^0.5.2
+
+  # Utilities
+  intl: ^0.19.0
+  url_launcher: ^6.2.4
+  path_provider: ^2.1.2
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  fl_chart: ^0.63.0
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.7
+  freezed: ^2.4.5
+  json_serializable: ^6.7.1
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

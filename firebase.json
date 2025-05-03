@@ -1,0 +1,31 @@
+{
+  "flutter":{
+    "platforms":{
+      "android":{
+        "default":{
+          "projectId":"mensa-scolastica",
+          "appId":"1:281377011187:android:54565425261c8a72154e86",
+          "fileOutput":"android/app/google-services.json"
+        }
+      },
+      "ios":{
+        "default":{
+          "projectId":"mensa-scolastica",
+          "appId":"1:281377011187:ios:87f385bf08d2dc82154e86",
+          "uploadDebugSymbols":true,
+          "fileOutput":"ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart":{
+        "lib/firebase_options.dart":{
+          "projectId":"mensa-scolastica",
+          "configurations":{
+            "android":"1:281377011187:android:54565425261c8a72154e86",
+            "ios":"1:281377011187:ios:87f385bf08d2dc82154e86",
+            "web":"1:281377011187:web:3133540dfdcc460a154e86"
+          }
+        }
+      }
+    }
+  }
+}
